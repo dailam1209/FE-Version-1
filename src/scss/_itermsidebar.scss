@@ -1,0 +1,62 @@
+@import './variable';
+
+
+.iterm {
+    display: flex;
+    align-items: center;
+    height: 43px;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    border-top: 1px solid #f6f6f6;
+
+
+
+    .title-sidebar {
+        margin: 0 10px;
+        color: #333f48;
+        font-size: 14px;
+    }
+
+
+    
+
+
+}
+.active-sidebar-profile {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 4px;
+        height: 100%;
+        background-color: red;
+        left: 0;        
+    }
+    
+    .icon-sidebar {
+        display: none;
+    }
+
+    .active-icon {
+        display: flex;
+    }
+
+    .title-sidebar {
+        font-weight: 550;
+    }
+
+}
+
+.inactive {
+    
+
+    .icon-sidebar {
+        display: flex;
+    }
+    
+    .active-icon {
+        display: none;
+    }
+}
+
