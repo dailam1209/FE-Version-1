@@ -20,7 +20,6 @@ function BackgroundImage() {
     >
       
       <Swiper
-        centeredSlides={true}
         loop={true}
         autoplay={{
           delay: 2500,
@@ -38,19 +37,16 @@ function BackgroundImage() {
             <SwiperSlide>
               <div key={index}>
                 <img
-                
                 style={{
                   objectFit: "cover",
                   backgroundImage: "cover",
                   maxWidth: "100%",
                 }}
                 src={img}
-                alt="index"
+                alt={index}
               ></img>
-
               </div>
             </SwiperSlide>
-
           )) 
         }
       </Swiper>

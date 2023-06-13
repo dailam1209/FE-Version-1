@@ -13,7 +13,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@glidejs/glide": "^3.6.0",
     "@mui/material": "^5.13.5",
-    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/styled-engine-sc": "^5.10.6",
     "@mui/system": "^5.13.5",
     "@react-ui-org/react-ui": "^0.52.0",
     "@reduxjs/toolkit": "^1.9.5",
